@@ -6,6 +6,10 @@
 *.iml
 out
 gen
+.idea/
+*.iml
+*.iws
+*.ipr
 ### Windows template
 # Windows thumbnail cache files
 Thumbs.db
@@ -60,6 +64,14 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+.env
+.venv/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
